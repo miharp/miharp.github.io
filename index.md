@@ -2,4 +2,4 @@
 layout: default
 ---
 
-[Contact Me](./contact)
+Welcome
