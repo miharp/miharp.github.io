@@ -1,13 +1,19 @@
 ---
 layout: default
-title: Contact
+title: Get in Touch
 ---
 
-# Contact
+I'd love to hear from you! Whether you have a question, want to collaborate, or just want to say hello, feel free to reach out.
 
-Email: [mike@mikeharp.com](mailto:mike@mikeharp.com)
+---
 
-## Socials
+## Email
 
-- [YouTube](https://www.youtube.com/@miharp)
-- [Facebook](https://www.facebook.com/michael.harp)
+The best way to reach me is by email at [mike@mikeharp.com](mailto:mike@mikeharp.com).
+
+---
+
+## Find Me Online
+
+- [YouTube](https://www.youtube.com/@miharp) — Videos and content
+- [Facebook](https://www.facebook.com/michael.harp) — Connect and follow
