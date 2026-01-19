@@ -1,0 +1,160 @@
+<style>
+/* Modern color palette */
+:root {
+  --primary: #6366f1;
+  --primary-dark: #4f46e5;
+  --accent: #f59e0b;
+  --text-dark: #1f2937;
+  --text-light: #6b7280;
+  --bg-light: #f9fafb;
+  --gradient-start: #667eea;
+  --gradient-end: #764ba2;
+}
+
+/* Enhanced header with modern gradient */
+.page-header {
+  background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 100%);
+  padding: 3rem 1rem;
+}
+
+@media screen and (min-width: 64em) {
+  .page-header {
+    padding: 4rem 2rem;
+  }
+}
+
+/* Smooth animations */
+.page-header,
+.main-content,
+.btn {
+  transition: all 0.3s ease;
+}
+
+/* Better typography */
+.project-name {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.project-tagline {
+  opacity: 0.95;
+  font-weight: 400;
+}
+
+/* Modern button styling */
+.btn {
+  background: rgba(255, 255, 255, 0.15);
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.85rem;
+  padding: 0.75rem 1.25rem;
+  backdrop-filter: blur(10px);
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, 0.95);
+  color: var(--primary-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Content styling */
+.main-content h1 {
+  color: var(--primary);
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.main-content h2 {
+  color: var(--text-dark);
+  font-weight: 600;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid var(--primary);
+  display: inline-block;
+}
+
+.main-content hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, var(--primary), transparent);
+  margin: 2.5rem 0;
+}
+
+/* Enhanced links */
+.main-content a {
+  color: var(--primary);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.main-content a:hover {
+  border-bottom-color: var(--primary);
+}
+
+/* Better list styling */
+.main-content ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.main-content ul li {
+  padding: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.main-content ul li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: var(--primary);
+  font-weight: bold;
+}
+
+/* Bold text styling */
+.main-content strong {
+  color: var(--text-dark);
+  font-weight: 600;
+}
+
+/* Fade-in animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.main-content {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+/* Card-like sections */
+.main-content p {
+  line-height: 1.8;
+  color: var(--text-light);
+}
+
+/* Responsive improvements */
+@media screen and (max-width: 42em) {
+  .page-header {
+    padding: 2rem 1rem;
+  }
+
+  .btn {
+    margin: 0.25rem;
+    padding: 0.6rem 1rem;
+    font-size: 0.8rem;
+  }
+}
+</style>
