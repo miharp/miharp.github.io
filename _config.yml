@@ -2,3 +2,7 @@ title: Michael Harp
 description: Hi, I'm Michael Harp.
 theme: jekyll-theme-cayman
 show_downloads: false
+
+# Serve the Matrix delegation files (Jekyll drops dot-dirs by default)
+include:
+  - ".well-known"
